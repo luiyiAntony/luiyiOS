@@ -125,7 +125,7 @@ int main(int argc, char **argv) {
 
   FILE *disk = fopen(argv[1], "rb");
   if (!disk) {
-    fprintf(stderr, "Cannot open dis image %s!", argv[1]);
+    fprintf(stderr, "Cannot open disk image %s!", argv[1]);
     return -1;
   }
 
